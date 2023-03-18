@@ -1,0 +1,49 @@
+/* h1 , h2 styles*/
+h1 {
+    width: 500px;
+    background-color: aqua;
+}
+
+/*Div styles*/
+div {
+    background-color: azure;
+    width: 200px;
+    margin: 2px;
+    padding: 4px;
+}
+
+/* Img styles*/
+img {
+    width: 150px;
+    padding: 10px;
+}
+
+/*container styles*/
+
+.container {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(207, 232, 220);
+    border: 2px solid rgb(79, 185, 227);
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    grid-column: span 3;
+}
+
+h2 {
+    background-color: antiquewhite;
+    grid-column: span 2;
+}
+
+/* Section styles */
+section {
+    background-color: pink;
+    color: green;
+    margin: 30px;
+    grid-column: span 3;
+    border-spacing: 20px;
+}
+
+#secondRow {
+    grid-row-start: 2;    
+}
